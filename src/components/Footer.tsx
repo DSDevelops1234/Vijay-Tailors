@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 import {
     Mail,
@@ -16,7 +15,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     {/* Brand */}
                     <div className="opacity-0 animate-fade-up animate-delay-100">
-                        <h3 className="text-2xl font-serif mb-4">Vijay Tailors</h3>
+                        <h3 className="text-2xl font-serif mb-4">Vijay Safari</h3>
                         <p className="text-primary-foreground/80 max-w-xs">
                             Crafting premium safari outfits with attention to detail and commitment to quality.
                         </p>
@@ -53,7 +52,7 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center">
                                 <Phone className="w-5 h-5 mr-3 text-accent" />
-                                <span className="text-primary-foreground/80">+91 98765 43210</span>
+                                <span className="text-primary-foreground/80">+91 96622 74775</span>
                             </div>
                             <div className="flex items-center">
                                 <Mail className="w-5 h-5 mr-3 text-accent" />
@@ -98,7 +97,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-12 pt-6 border-t border-primary-foreground/10 text-center text-primary-foreground/60 text-sm">
-                    <p>&copy; {new Date().getFullYear()} Vijay Tailors. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Vijay Safari. All rights reserved.</p>
                 </div>
             </div>
         </footer>

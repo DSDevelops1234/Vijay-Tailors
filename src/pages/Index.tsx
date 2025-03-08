@@ -4,7 +4,7 @@ import Newsletter from "@/components/Newsletter";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
+import HeroBg from "@/assets/images/hero/herobg.png"
 const Index = () => {
     const navigate = useNavigate();
 
@@ -44,7 +44,8 @@ const Index = () => {
                 subtitle="Discover our premium collection of meticulously tailored safari shirts, trousers, and complete outfits designed for comfort, style, and durability."
                 ctaText="Explore Collection"
                 ctaLink="/products"
-                imageUrl="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=2070&auto=format&fit=crop"
+                // imageUrl="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=2070&auto=format&fit=crop"
+                imageUrl={HeroBg}
             />
 
             {/* About Section */}
@@ -53,7 +54,7 @@ const Index = () => {
                     <div className="max-w-4xl mx-auto text-center opacity-0 animate-fade-up">
                         <h2 className="text-3xl md:text-4xl font-serif mb-6">Tailored for Adventure</h2>
                         <p className="text-muted-foreground mb-8">
-                            At Vijay Tailors, we specialize in creating premium safari attire that combines comfort, durability, and timeless style. Each piece is meticulously crafted with attention to detail, ensuring the perfect fit for your outdoor adventures.
+                            At Vijay Safari, we specialize in creating premium safari attire that combines comfort, durability, and timeless style. Each piece is meticulously crafted with attention to detail, ensuring the perfect fit for your outdoor adventures.
                         </p>
                         <Button
                             onClick={() => navigate("/about")}

@@ -12,7 +12,7 @@ const About = () => {
             <section className="bg-secondary py-16 md:py-24">
                 <div className="container mx-auto container-padding">
                     <div className="max-w-3xl mx-auto text-center opacity-0 animate-fade-up">
-                        <h1 className="text-4xl md:text-5xl font-serif mb-6">About Vijay Tailors</h1>
+                        <h1 className="text-4xl md:text-5xl font-serif mb-6">About Vijay Safari</h1>
                         <p className="text-muted-foreground">
                             A legacy of craftsmanship, quality, and attention to detail.
                         </p>
@@ -37,7 +37,7 @@ const About = () => {
                         <div className="opacity-0 animate-fade-up">
                             <h2 className="text-3xl font-serif mb-6">Our Story</h2>
                             <p className="text-muted-foreground mb-6">
-                                Vijay Tailors was founded with a passion for craftsmanship and a commitment to quality. For over three decades, we have specialized in creating impeccable safari attire that combines style, comfort, and durability.
+                                Vijay Safari was founded with a passion for craftsmanship and a commitment to quality. For over three decades, we have specialized in creating impeccable safari attire that combines style, comfort, and durability.
                             </p>
                             <p className="text-muted-foreground mb-6">
                                 What began as a small family business has grown into a trusted name in safari clothing, known for our attention to detail and the exceptional quality of our garments. Each piece is meticulously crafted using traditional tailoring techniques alongside modern innovations.
@@ -93,7 +93,7 @@ const About = () => {
                     <div className="max-w-3xl mx-auto text-center mb-16 opacity-0 animate-fade-up">
                         <h2 className="text-3xl md:text-4xl font-serif mb-6">What Our Customers Say</h2>
                         <p className="text-muted-foreground">
-                            The true measure of our success is the satisfaction of our customers. Here's what they have to say about their Vijay Tailors experience.
+                            The true measure of our success is the satisfaction of our customers. Here's what they have to say about their Vijay Safari experience.
                         </p>
                     </div>
 
@@ -106,7 +106,7 @@ const About = () => {
                                 delay: "animate-delay-100",
                             },
                             {
-                                quote: "I've been a customer for over 10 years, and the quality has never wavered. My Vijay Tailors safari shirts have accompanied me on countless adventures and still look great.",
+                                quote: "I've been a customer for over 10 years, and the quality has never wavered. My Vijay Safari safari shirts have accompanied me on countless adventures and still look great.",
                                 author: "Sarah L.",
                                 location: "Bangalore",
                                 delay: "animate-delay-200",

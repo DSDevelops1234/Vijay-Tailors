@@ -23,7 +23,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
     const closeMenu = () => setIsOpen(false);
 
-    const navbarClasses = `fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out ${scrolled ? "glass py-3" : "bg-transparent py-5"
+    const navbarClasses = `fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out ${scrolled ? "glass py-5" : "bg-white py-5"
         }`;
 
     const navLinkClasses = ({ isActive }: { isActive: boolean }) =>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <nav className={navbarClasses}>
             <div className="container mx-auto flex justify-between items-center container-padding">
                 <NavLink to="/" className="text-2xl font-serif tracking-tight text-primary">
-                    Vijay Tailors
+                    Vijay Safari
                 </NavLink>
 
                 {/* Desktop Navigation */}

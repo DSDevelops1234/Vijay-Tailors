@@ -35,8 +35,8 @@ const Contact = () => {
                                     <div>
                                         <h3 className="text-lg font-medium mb-1">Location</h3>
                                         <p className="text-muted-foreground">
-                                            123 Fashion Street<br />
-                                            Mumbai, Maharashtra 400001<br />
+                                            9/1154, 1st Floor, Ambaji Road,<br />
+                                            Above Parimal Tailor, SURAT, Gujrat<br />
                                             India
                                         </p>
                                     </div>
@@ -58,8 +58,8 @@ const Contact = () => {
                                     <div>
                                         <h3 className="text-lg font-medium mb-1">Phone</h3>
                                         <p className="text-muted-foreground">
-                                            +91 98765 43210<br />
-                                            +91 98765 43211
+                                            +91 63785 02037<br />
+                                            +91 96622 74775
                                         </p>
                                     </div>
                                 </div>
@@ -76,13 +76,50 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className="aspect-[16/9] w-full overflow-hidden rounded-lg">
+                            {/* <div className="aspect-[16/9] w-full overflow-hidden rounded-lg">
                                 <img
                                     src="https://images.unsplash.com/photo-1604754742629-3e0474ce20b3?q=80&w=1200&auto=format&fit=crop"
                                     alt="Tailor shop"
                                     className="w-full h-full object-cover"
                                 />
+                            </div> */}
+                            <div className="h-80 w-[90vw] overflow-hidden rounded-lg mt-24">
+                                <a
+                                    href="https://www.google.com/maps/dir/?api=1&destination=9%2F1154%2C+1st+Floor%2C+Ambaji+Road%2C+Above+Parimal+Tailor%2C+SURAT%2C+Gujrat+%28India%29"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{ display: 'block', height: '100%', width: '100%', textDecoration: 'none', color: 'inherit' }}
+                                >
+                                    {/* <p style={{ textAlign: 'center', lineHeight: '320px', margin: 0 }}>Get Directions</p> */}
+                                    <iframe
+                                        src="https://maps.google.com/maps?q=9/1154, 1st Floor, Ambaji Road, Above Parimal Tailor, SURAT&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                        className="w-full h-full"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                        title="Google Map"
+                                    ></iframe>
+                                </a>
                             </div>
+
+                            {/* <div className="h-80 w-[90vw] overflow-hidden rounded-lg relative">
+                                Embedded Google Map
+                                <iframe
+                                    src="https://maps.google.com/maps?q=9/1154, 1st Floor, Ambaji Road, Above Parimal Tailor, SURAT, Gujrat (India)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    className="w-full h-full"
+                                    frameBorder="0"
+                                    allowFullScreen
+                                    title="Google Map"
+                                ></iframe>
+                                Transparent link overlay
+                                <a
+                                    href="https://maps.google.com/maps?q=9/1154, 1st Floor, Ambaji Road, Above Parimal Tailor, SURAT, Gujrat (India)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="absolute inset-0"
+                                ></a>
+                            </div> */}
+
+
                         </div>
 
                         {/* Contact Form */}
